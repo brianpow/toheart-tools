@@ -1,5 +1,6 @@
 #include <string>
 #include <unordered_map>
+#include <cstdint>
 
 const std::unordered_map<std::string, uint16_t> rfonttable = {
     {"　", 0x0000}, {"■", 0x0001},  {"Ａ", 0x0002}, {"Ｂ", 0x0003},

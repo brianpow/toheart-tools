@@ -1,6 +1,7 @@
 #include <string>
 #include <tuple>
 #include <unordered_map>
+#include <cstdint>
 
 std::unordered_map<uint8_t, std::tuple<std::string, uint8_t>> opcodes = {
     {0x20, std::make_tuple("End20", 0)},
